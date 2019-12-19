@@ -88,7 +88,7 @@ module.exports = (robot) ->
 
     msg.http("https://translate.google.com/translate_a/single")
       .query({
-        client: 't'
+        client: 'gtx'
         hl: 'en'
         sl: origin
         ssel: 0
